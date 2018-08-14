@@ -51,4 +51,3 @@ print("outside of while loop")
 
 
 
- let result =  encryptedString("WAAAD")
