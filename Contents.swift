@@ -49,5 +49,19 @@ while (isLifeAvailable) {
 }
 print("outside of while loop")
 
+//TODO Implement Switch Statment swich print num =4:
+let num: Int = 3
+switch num {
+case 1 :
+    print ("One")
+case 5 :
+    print ("Five")
+case 3 :
+    print ("Three")
+case 4 :
+    print ("Four")
+default :
+    print ("Not found")
+}
 
 
