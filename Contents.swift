@@ -18,17 +18,24 @@ if number > 0 {
 
 //-------------------------------------
 
+//TODO Implement Method which calculate averageScore ->  result = firstScore + secondScore + thirdScore / 3
 
-func averageScore (firstScore: Double,secondScore: Double,thirdScore: Double )
+
+import UIKit
+import PlaygroundSupport
+
+func   averageScore (firstScore: Double,secondScore: Double,thirdScore: Double ) -> Double
 {
     
-    let result = firstScore + secondScore + thirdScore
-    print (result / 3)
+    let result = firstScore + secondScore + thirdScore / 3
+    return result
     
 }
-
 //TODO Call Method averageScore + print result
-averageScore (9.6,secondScore: 4.6 ,thirdScore: 5.9 )
+
+print(averageScore(firstScore: 4.0, secondScore: 3.9, thirdScore: 2.9))
+
+
 
 /** TODO WE have While LOOP the test expression of the while loop is always true. var currentLevel:Int = 1, finalLevel:Int = 2
 (Write IF statment, When the currentLevel is greater than finalLevel, break statement inside the if block is executed) 
