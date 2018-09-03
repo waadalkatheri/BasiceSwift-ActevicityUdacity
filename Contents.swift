@@ -5,7 +5,7 @@ import UIKit
 
 
 
-/**  TODO write constant number is initialized with value 10 and the test expression number > 0 evaluates to true. Hence,the
+/** (1)  TODO write constant number is initialized with value 10 and the test expression number > 0 evaluates to true. Hence,the
 statement print("Number is positive.") inside the body of if statement is executed.
 **/
 
@@ -18,26 +18,24 @@ if number > 0 {
 
 //-------------------------------------
 
-//TODO Implement Method which calculate averageScore ->  result = firstScore + secondScore + thirdScore / 3
+// (2) TODO Implement Method which calculate averageScore ->  result = firstScore + secondScore + thirdScore / 3
 
 
-import UIKit
-import PlaygroundSupport
 
-func   averageScore (firstScore: Double,secondScore: Double,thirdScore: Double ) -> Double
+func averageScore (firstScore: Double,secondScore: Double,thirdScore: Double ) -> Double
 {
     
     let result = firstScore + secondScore + thirdScore / 3
     return result
     
 }
-//TODO Call Method averageScore + print result
+// (3) TODO Call Method averageScore + print result
 
 print(averageScore(firstScore: 4.0, secondScore: 3.9, thirdScore: 2.9))
 
 
 
-/** TODO WE have While LOOP the test expression of the while loop is always true. var currentLevel:Int = 1, finalLevel:Int = 2
+/**  WE have While LOOP the test expression of the while loop is always true. var currentLevel:Int = 1, finalLevel:Int = 2
 (Write IF statment, When the currentLevel is greater than finalLevel, break statement inside the if block is executed) 
 
 The program then breaks out of (terminates) the while loop and executes the statements after the loop, i.e. print("outside of while loop")
@@ -45,7 +43,7 @@ The program then breaks out of (terminates) the while loop and executes the stat
 var currentLevel:Int = 1, finalLevel:Int = 2
 var isLifeAvailable = true
 while (isLifeAvailable) {
-    
+    //(4) TODO Write IF statment, When the currentLevel is greater than finalLevel, break statement inside the if block is executed
     if currentLevel > finalLevel {
         print("Game Completed. No level remaining")
         break
@@ -56,7 +54,7 @@ while (isLifeAvailable) {
 }
 print("outside of while loop")
 
-//TODO Implement Switch Statment swich print num =4:
+// (5) TODO Implement Switch Statment swich print num =4:
 let num: Int = 3
 switch num {
 case 1 :
