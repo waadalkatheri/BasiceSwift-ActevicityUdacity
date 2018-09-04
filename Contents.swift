@@ -25,7 +25,7 @@ if number > 0 {
 func averageScore (firstScore: Double,secondScore: Double,thirdScore: Double ) -> Double
 {
     
-    let result = firstScore + secondScore + thirdScore / 3
+    _ = firstScore + secondScore + thirdScore / 3
     return result
     
 }
